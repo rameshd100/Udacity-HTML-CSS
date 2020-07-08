@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  max-height: 100vh;
+}
+
+.post-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-bottom: 2px solid #319795;
+}
+
+.blog-post{
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  font-family: 'Galada', cursive, sans-serif;
+  
+}
+
+.main-content {
+  margin: 40px;
+}
+
+.main-content p{
+  font-family: 'Galada', cursive, sans-serif;
+}
+
+.side-bar {
+  border-left: 2px solid #319795;
+  padding: 3rem;
+}
+
+.back-home{
+  margin: 2rem;
+  background-color: #319795;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 2px solid gold;
+}
+.back-home a {
+  color: aliceblue;
+}
+
+h1 {
+  color: #319795;
+}
+
+img{
+  width: 100%;
+}
+.author-card {
+  width: 50%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  border-bottom: 2px solid #319795;
+
+}
+.author-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.author-discription {
+  padding-left: 2rem;
+}
+
+footer {
+  background-color: #0E1E24;
+  height: 8rem;
+  color: white;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.footer-links h3 {
+  padding: 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
