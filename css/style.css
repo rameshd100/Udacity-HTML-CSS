@@ -60,3 +60,21 @@ button {
 h3 {
   color: #24B1ED;
 }
+
+@media screen and (max-width: 1900px) {
+  .blog-posts {
+    grid-column-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .blog-posts {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .post {
+    width: 300px;
+  }
+}

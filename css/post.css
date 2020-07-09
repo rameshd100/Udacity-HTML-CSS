@@ -57,7 +57,7 @@ img{
   width: 100%;
 }
 .author-card {
-  width: 50%;
+  width: 70%;
   box-shadow: 0 2px 10px rgba(0,0,0,0.3);
   border-bottom: 2px solid #319795;
 
@@ -92,4 +92,27 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1600px) {
+  .author-card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .blog-post {
+    grid-template-columns: 1fr;
+  }
+
+  .author-card {
+    width: 30%;
+    
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .author-card {
+    width: 100%;
+  }
 }
