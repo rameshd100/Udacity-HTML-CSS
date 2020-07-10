@@ -60,6 +60,28 @@ button {
 h3 {
   color: #24B1ED;
 }
+footer {
+  background-color: #0E1E24;
+  height: 9rem;
+  color: white;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.footer-links h3 {
+  padding: 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 1900px) {
   .blog-posts {
@@ -71,10 +93,17 @@ h3 {
   .blog-posts {
     grid-template-columns: auto;
   }
+  .footer{
+    height: 8rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .post {
     width: 300px;
+  }
+  .footer{
+    height: 4rem;
+    font-size: 12px;
   }
 }
