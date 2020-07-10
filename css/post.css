@@ -49,7 +49,10 @@ body{
   color: aliceblue;
 }
 
-h1 {
+.blog-post h1 {
+  color: #319795;
+}
+.post-title h1 {
   color: #319795;
 }
 
@@ -69,29 +72,6 @@ img{
 
 .author-discription {
   padding-left: 2rem;
-}
-
-footer {
-  background-color: #0E1E24;
-  height: 8rem;
-  color: white;
-}
-
-.footer-links{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  
-}
-.footer-links h3 {
-  padding: 10px;
-}
-
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 @media screen and (max-width: 1600px) {

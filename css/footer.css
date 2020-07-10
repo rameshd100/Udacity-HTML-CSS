@@ -1,0 +1,22 @@
+footer {
+  background-color: #0E1E24;
+  height: 8rem;
+  color: white;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.footer-links h3 {
+  padding: 10px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
